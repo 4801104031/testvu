@@ -187,27 +187,26 @@
             <form class="forgot-password-form">
                 <h3>Yêu cầu quên tài khoản</h3>
                 <div class="form-group">
-                    <input type="tel" required>
+                    <input type="tel" name="phone" required>
                     <label>Số điện thoại</label>
                 </div>
                 <div class="form-group">
-                    <input type="password" required>
+                    <input type="password" name="new_password" required>
                     <label>Mật khẩu mới</label>
                 </div>
                 <div class="form-group">
-                    <input type="password" required>
+                    <input type="password" name="confirm_password" required>
                     <label>Nhập lại mật khẩu</label>
-                </div>
-                <div class="form-info">
-                    <!-- <p>Chúng tôi sẽ gửi một mã xác nhận về tài khoản Zalo qua số điện thoại bạn nhập.</p>
-                    <p>Để xác minh tính hợp lệ trước khi yêu cầu đổi mật khẩu</p> -->
                 </div>
                 <button type="submit" class="reset-btn">Yêu cầu thay đổi mật khẩu</button>
                 <div class="form-footer">
                     <a href="dangnhap.html">Về đăng nhập tài khoản</a>
                 </div>
+                
             </form>
         </div>
     </div>
+    <script src="../../js/main.js"></script>
+    <script src="../../js/auth.js"></script>
 </body>
 </html>
